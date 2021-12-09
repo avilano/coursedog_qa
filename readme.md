@@ -3,6 +3,7 @@
 Hey there, this is my automation project for CourseDog's QA Engineer position, hope you like it!
 
 The project is using the cypress.io framework for automation with the cucumber plugin.
+It also uses Github Actions to run the automation after each push to master.
 
 ## Installation
 
