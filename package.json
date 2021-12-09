@@ -1,0 +1,23 @@
+{
+  "name": "coursedog_qa",
+  "version": "1.0.0",
+  "description": "Recruitment task for Coursedog's QA Engineering position",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+		"cypress:run": "cypress run",
+		"cypress:run:bundle": "cypress run --spec \"**/**/*.feature\"",
+		"cypress:run:chrome": "cypress run --browser chrome",
+		"cypress:run:firefox": "cypress run --browser firefox",
+		"cypress:run:edge": "cypress run --browser edge"
+  },
+  "author": "Alberto E. Vilano",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
